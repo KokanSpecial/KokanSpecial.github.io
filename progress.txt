@@ -1,0 +1,17 @@
+almond                              	True			Displayed
+Big size polished cashew		True			Displayed
+Black raisins 				True			Displayed
+Brown Raisins				True			Displayed
+Cashew with peal			True			Displayed
+Dry dates				True			Displayed
+Green chille cashew			Past			Displayed
+Kokam sarbat				True			Displayed
+Kulith flour				Past
+Malvani masala				True			Displayed
+Masala Cashew				True			Displayed
+Pista					True			Displayed
+Schezwan				Past
+Tukda Cashew				Past			Displayed
+Ukda rice				Past
+Yellow raisins				True			Displayed
+Salted cahshew				True			Displayed

@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+body{
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-outer
+{
+    background-color: #f8f9fa!important;
+    padding: 10px;
+
+}
+
+
+.container .primary-footer
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-evenly;
+
+}
+
+
+/* .container .primary-footer .products {
+    display: flex;
+    flex-direction: column;
+} */
+
+
+
+
+.container .primary-footer .products ul li 
+{
+    list-style-type: none;
+}
+
+
+.container .primary-footer .products ul li a,
+.container .primary-footer .social-icons ul li a
+{
+    color: black;
+    text-decoration: none;
+}
+
+
+.container .primary-footer .social-icons
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.container .primary-footer .social-icons .number,
+.container .primary-footer .social-icons .email
+{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.container .primary-footer .social-icons .icons
+{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    max-width: 180px;
+    justify-content: space-between;
+    font-size: 30px;
+
+}  
+
+.container .primary-footer .social-icons .icons .facebook a,
+.container .primary-footer .social-icons .icons .instagram a,
+.container .primary-footer .social-icons .icons .whatsapp a
+{
+    color: black;
+    text-decoration: none;
+}  
+
+.container .primary-footer .products
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.container .secondary-footer  .copyright
+{
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.d-none
+{
+    display : block!important;
+}
+
+
+.carousel-item .carousel-header
+{
+    font-size: 25px;
+
+}
+
+.carousel-discription
+{
+    font-size: 15px
+}
+
+
+
+@media only screen and (min-width: 450px)
+{
+    .products h5
+    {
+        text-align: center;
+    }
+ 
+    .container .inner-prod
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.container-outer .container .primary-footer  .products a
+{
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (min-width: 780px)
+{
+ 
+    .carousel-item .carousel-header
+    {
+        font-size: 40px;
+
+    }
+
+    .carousel-discription
+    {
+        font-size: 30px
+    }
+
+    .container .primary-footer
+    {
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+
+    }
+}

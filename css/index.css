@@ -13,11 +13,79 @@ body{
 
 }
 
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 54px;
+    height: 28px;
+    top: 5px;
+    right: -45px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color:black;
+    
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  
+
 .quantity-dropdown
 {
     height: 30px;
     width: 180px;
-    border: 2px solid deepskyblue;
+    /* border: 2px solid deepskyblue; */
     border-radius: 5px;
 }
 
@@ -36,7 +104,10 @@ body{
     flex-direction: column;
 } */
 
-
+hr
+{
+    margin-bottom: 0px;
+}
 
 
 .container .primary-footer .products ul li 
@@ -96,7 +167,8 @@ body{
 .container .secondary-footer  .copyright
 {
     text-align: center;
-    margin: 30px 0px;
+    /* margin: 30px 0px; */
+    padding: 15px 0px;
 }
 
 .d-none
@@ -120,6 +192,10 @@ body{
 
 @media only screen and (min-width: 450px)
 {
+    .switch {
+        right: -70px;
+    }
+
     .products h5
     {
         text-align: center;
@@ -132,6 +208,140 @@ body{
         justify-content: space-between;
     }
 }
+
+
+@media only screen and (min-width: 480px)
+{
+    .switch {
+        right: -85px;
+    }
+}
+
+@media only screen and (min-width: 500px)
+{
+    .switch {
+        right: -95px;
+    }
+}
+
+
+@media only screen and (min-width: 550px)
+{
+    .switch {
+        right: -120px;
+    }
+}
+
+@media only screen and (min-width: 580px)
+{
+    .switch {
+        right: -130px;
+    }
+}
+
+@media only screen and (min-width: 600px)
+{
+    .switch {
+        right: -135px;
+    }
+}
+
+@media only screen and (min-width: 650px)
+{
+    .switch {
+        right: -165px;
+    }
+}
+
+
+@media only screen and (min-width: 700px)
+{
+    .switch {
+        right: -185px;
+    }
+}
+
+@media only screen and (min-width: 750px)
+{
+    .switch {
+        right: -205px;
+    }
+}
+
+@media only screen and (min-width: 800px)
+{
+    .switch {
+        right: -225px;
+    }
+}
+
+@media only screen and (min-width: 830px)
+{
+    .switch {
+        right: -235px;
+    }
+}
+
+@media only screen and (min-width: 850px)
+{
+    .switch {
+        right: -245px;
+    }
+}
+
+@media only screen and (min-width: 860px)
+{
+    .switch {
+        right: -260px;
+    }
+}
+
+@media only screen and (min-width: 875px)
+{
+    .switch {
+        right: -275px;
+    }
+}
+
+
+@media only screen and (min-width: 900px)
+{
+    .switch {
+        right: -285px;
+    }
+}
+
+@media only screen and (min-width: 925px)
+{
+    .switch {
+        right: -295px;
+    }
+}
+
+
+@media only screen and (min-width: 950px)
+{
+    .switch {
+        right: -305px;
+    }
+}
+
+
+@media only screen and (min-width: 975px)
+{
+    .switch {
+        right: -330px;
+    }
+}
+
+
+@media only screen and (min-width: 1000px)
+{
+    .switch {
+        right: -315px;
+    }
+}
+
 
 .container-outer .container .primary-footer  .products a
 {
@@ -161,5 +371,35 @@ body{
     width: 100%;
     justify-content: space-evenly;
 
+    }
+}
+
+@media only screen and (min-width: 992px)
+{
+    .switch {
+        right: -750px;
+    }
+}
+
+
+@media only screen and (min-width: 1009px)
+{
+    .switch {
+        right: -770px;
+    }
+}
+
+@media only screen and (min-width: 1019px)
+{
+    .switch {
+        right: -780px;
+    }
+}
+
+@media only screen and (min-width: 1039px)
+{
+    .switch {
+        right: -790px;
+         
     }
 }

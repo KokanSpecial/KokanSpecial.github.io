@@ -222,3 +222,67 @@ $(function () {
         }
     });
 });
+
+// ================================================ Toggle Dark mode =========================================================
+
+// $(function () {
+//   $("#dark-mode").click(function () {
+
+//     $("body").css("background-color","black");
+//     $("nav").removeClass("bg-light");
+//     $("nav").addClass("bg-secondary");
+    
+//   })
+// })
+
+$(function () 
+{
+     $("#dark-mode").click(function ()
+     {
+          if($("#dark-mode").prop('checked') == true)
+          {
+            // console.log("Checked");
+            $("body").css("background-color","black");
+            $("nav").removeClass("bg-light");
+            $("#bg-nav").css("background-color","#535353");
+            $(".navbar-brand").css("color","white");
+            $(".navbar-toggler").css("border-color","white");
+            $(".card").css("background-color","#131313");
+            $(".card").css("color","white");
+            $(".quantity-dropdown").css("background-color","#3e3e3e");
+            $(".quantity-dropdown").css("color","white");
+            $("h2").css("color","white");
+            $("#footer").removeClass("container-outer");
+            $("#footer").css("background-color","#1d1d1d");
+            $("#footer").css("color","#fff");
+            $("a").css("color","#fff");
+            $("hr").css("background-color","#313131");
+            
+          }
+          else
+          {
+            // console.log("Unchecked");
+            $("body").css("background-color","white");
+            $("nav").removeClass("bg-secondary");
+            $("nav").addClass("bg-light");
+            $("#bg-nav").css("background-color","#535353");
+            $(".navbar-brand").css("color","black");
+            $(".navbar-toggler").css("border-color","rgba(0,0,0,.1)");
+            $(".card").css("background-color","#fff");
+            $(".card").css("color","black");
+            $(".quantity-dropdown").css("background-color","#fff");
+            $(".quantity-dropdown").css("color","black");
+            $("h2").css("color","black");
+            $("#footer").addClass("container-outer");
+            $("#footer").css("background-color","#fff");
+            $("#footer").css("color","black");
+            $("a").css("color","black");
+            $("hr").css("background-color","#cccccc");
+            
+            
+            
+
+          }
+     });
+});
+ 

@@ -379,6 +379,11 @@ hr
     .switch {
         right: -750px;
     }
+
+    .primary-footer
+    {
+        padding: 5px 0px;
+    }
 }
 
 

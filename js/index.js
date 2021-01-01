@@ -253,10 +253,12 @@ $(function ()
             $(".quantity-dropdown").css("color","white");
             $("h2").css("color","white");
             $("#footer").removeClass("container-outer");
+            $("#primary-footer").css("padding-top","5px");
             $("#footer").css("background-color","#1d1d1d");
             $("#footer").css("color","#fff");
             $("a").css("color","#fff");
             $("hr").css("background-color","#313131");
+
             
           }
           else

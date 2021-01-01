@@ -188,7 +188,68 @@ hr
     font-size: 15px
 }
 
+@media only screen and (min-width: 300px)
+{
+    .switch {
+        right: 5px;
+    }
+}
 
+@media only screen and (min-width: 310px)
+{
+    .switch {
+        right: 0px;
+    }
+}
+
+@media only screen and (min-width: 320px)
+{
+    .switch {
+        right: -5px;
+    }
+}
+
+@media only screen and (min-width: 330px)
+{
+    .switch {
+        right: -10px;
+    }
+}
+
+@media only screen and (min-width: 340px)
+{
+    .switch {
+        right: -15px;
+    }
+}
+
+@media only screen and (min-width: 350px)
+{
+    .switch {
+        right: -20px;
+    }
+}
+
+@media only screen and (min-width: 360px)
+{
+    .switch {
+        right: -20px;
+    }
+}
+
+@media only screen and (min-width: 388px)
+{
+    .switch {
+        right: -40px;
+    }
+}
+
+@media only screen and (min-width: 430px)
+{
+    .switch {
+        right: -60px;
+    }
+}
 
 @media only screen and (min-width: 450px)
 {

@@ -9,7 +9,7 @@ $(function () {
         else if (dropdown == 250) {
           document.getElementById("dynamic-price").innerHTML = "Rs 189.50";
         } else {
-          document.getElementById("dynamic-price").innerHTML = "Rs 750.00";
+          document.getElementById("dynamic-price").innerHTML = "Rs 720.00";
         }
     });
 });
@@ -25,7 +25,7 @@ $(function () {
         else if (dropdown == 250) {
           document.getElementById("dynamic-price2").innerHTML = "Rs 189.50";
         } else {
-          document.getElementById("dynamic-price2").innerHTML = "Rs 750.00";
+          document.getElementById("dynamic-price2").innerHTML = "Rs 720.00";
         }
     });
 });
@@ -41,7 +41,7 @@ $(function () {
         else if (dropdown == 250) {
           document.getElementById("dynamic-price3").innerHTML = "Rs 189.50";
         } else {
-          document.getElementById("dynamic-price3").innerHTML = "Rs 750.00";
+          document.getElementById("dynamic-price3").innerHTML = "Rs 720.00";
         }
     });
 });

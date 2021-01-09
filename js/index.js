@@ -25,7 +25,7 @@ $(function () {
         else if (dropdown == 250) {
           document.getElementById("dynamic-price2").innerHTML = "Rs 189.50";
         } else {
-          document.getElementById("dynamic-price2").innerHTML = "Rs 720.00";
+          document.getElementById("dynamic-price2").innerHTML = "Rs 970.00";
         }
     });
 });

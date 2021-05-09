@@ -4,12 +4,12 @@ $(function () {
         var dropdown = document.getElementById("quantity").value;
         if(dropdown == 500)
         {
-            document.getElementById("dynamic-price").innerHTML = "Rs 375.00";
+            document.getElementById("dynamic-price").innerHTML = "Rs 385.00";
         }
         else if (dropdown == 250) {
-          document.getElementById("dynamic-price").innerHTML = "Rs 189.50";
+          document.getElementById("dynamic-price").innerHTML = "Rs 195.50";
         } else {
-          document.getElementById("dynamic-price").innerHTML = "Rs 720.00";
+          document.getElementById("dynamic-price").innerHTML = "Rs 770.00";
         }
     });
 });
@@ -20,12 +20,12 @@ $(function () {
         var dropdown = document.getElementById("quantity2").value;
         if(dropdown == 500)
         {
-            document.getElementById("dynamic-price2").innerHTML = "Rs 375.00";
+            document.getElementById("dynamic-price2").innerHTML = "Rs 500.00";
         }
         else if (dropdown == 250) {
-          document.getElementById("dynamic-price2").innerHTML = "Rs 189.50";
+          document.getElementById("dynamic-price2").innerHTML = "Rs 250.00";
         } else {
-          document.getElementById("dynamic-price2").innerHTML = "Rs 970.00";
+          document.getElementById("dynamic-price2").innerHTML = "Rs 1000.00";
         }
     });
 });
@@ -36,12 +36,12 @@ $(function () {
         var dropdown = document.getElementById("quantity3").value;
         if(dropdown == 500)
         {
-            document.getElementById("dynamic-price3").innerHTML = "Rs 375.00";
+            document.getElementById("dynamic-price3").innerHTML = "Rs 350.00";
         }
         else if (dropdown == 250) {
           document.getElementById("dynamic-price3").innerHTML = "Rs 189.50";
         } else {
-          document.getElementById("dynamic-price3").innerHTML = "Rs 720.00";
+          document.getElementById("dynamic-price3").innerHTML = "Rs 700.00";
         }
     });
 });

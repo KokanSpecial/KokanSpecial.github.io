@@ -188,6 +188,15 @@ hr
     font-size: 15px
 }
 
+.whats-app .whatsapp-logo
+{
+    position: fixed;
+    /* height: 200px; */
+    width: 50px;
+    right: 5%;
+    top: 85%;
+}
+
 @media only screen and (min-width: 300px)
 {
     .switch {
@@ -320,6 +329,13 @@ hr
     .switch {
         right: -185px;
     }
+    
+    .whats-app .whatsapp-logo
+    {
+        width: 70px;
+        right: 5%;
+        top: 85%;
+    }
 }
 
 @media only screen and (min-width: 750px)
@@ -400,6 +416,13 @@ hr
 {
     .switch {
         right: -315px;
+    }
+    
+    .whats-app .whatsapp-logo
+    {
+        width: 60px;
+        right: 3%;
+        top: 85%;
     }
 }
 
